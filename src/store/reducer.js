@@ -28,7 +28,7 @@ const reducer = (state = initialState, action) => {
             // Immutable state: use .filter to return a completely new array without the action.value at index
             return {
                 ...state,
-                persons: state.persons.filter((result, index) => result.id !== action.value)
+                persons: state.persons.filter((person, index) => person.id !== action.personId)
             };
         default:
             //console.log('action: default')
