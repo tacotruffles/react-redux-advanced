@@ -5,7 +5,7 @@ A React experiment that passes input from two-way binding on a form, to local st
 ### How to stand up this repo
 
 ```shell
-git clone https://github.com/tacotruffles/react-redux-advanced
+git clone https://github.com/tacotruffles/react-redux-advanced.git
 cd react-redux-advanced
 
 #run
